@@ -1,0 +1,8 @@
+<Bindings>
+  <Binding name="FERRYMAN_WHERETO" header="FERRYMAN" category="BINDING_HEADER_FERRYMAN">Ferryman_Key("WHERETO")</Binding>
+  <Binding name="FERRYMAN_CURSOR" category="BINDING_HEADER_FERRYMAN">Ferryman_Key("CURSOR")</Binding>
+  <Binding name="FERRYMAN_PIN" category="BINDING_HEADER_FERRYMAN">Ferryman_Key("PIN")</Binding>
+  <Binding name="FERRYMAN_STOP" category="BINDING_HEADER_FERRYMAN">Ferryman_Key("STOP")</Binding>
+  <Binding name="FERRYMAN_STEPS" category="BINDING_HEADER_FERRYMAN">Ferryman_Key("STEPS")</Binding>
+  <Binding name="FERRYMAN_FIND" category="BINDING_HEADER_FERRYMAN">Ferryman_Key("FIND")</Binding>
+</Bindings>

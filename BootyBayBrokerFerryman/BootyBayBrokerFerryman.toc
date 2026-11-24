@@ -1,0 +1,63 @@
+## Interface: 16001
+## Title: BootyBayBroker Ferryman
+## Notes: The fastest way from here to there, and an arrow to follow.
+## Author: TheMizeGuy
+## Version: 0.12.3
+## SavedVariables: FerrymanDB
+## AddonCompartmentFunc: Ferryman_Key
+## IconAtlas: FlightMasterFerry
+
+Data\Network.lua
+Data\NetworkShapes.lua
+Data\Measured.lua
+Data\Gazetteer.lua
+Data\Trainers.lua
+Data\WalkingDigest.lua
+Engine\Bytes.lua
+Engine\Heap.lua
+Engine\Clock.lua
+Engine\Network.lua
+Engine\Ground.lua
+Engine\GroundCodes.lua
+Engine\GroundPortals.lua
+Engine\GroundGrid.lua
+Engine\GroundSpread.lua
+Engine\GroundTrail.lua
+Engine\GroundWalks.lua
+Engine\GroundTaut.lua
+Engine\Solver.lua
+Engine\Trip.lua
+Engine\Find.lua
+Client\Env.lua
+Client\Ledger.lua
+Client\Learn.lua
+Client\Seen.lua
+Client\Senses.lua
+Client\Work.lua
+Client\Request.lua
+Client\Pin.lua
+Client\Lead.lua
+Client\Side.lua
+Client\Marks.lua
+Client\Driver.lua
+Client\Facts.lua
+Client\Tick.lua
+Client\Guide.lua
+Client\Finder.lua
+Client\Lookup.lua
+Client\Public.lua
+Frames\Texts.lua
+Frames\MiniTrail.lua
+Frames\MiniSide.lua
+Frames\MiniLoop.lua
+Frames\Pointer.lua
+Frames\Steps.lua
+Frames\MapPath.lua
+Frames\MapLoop.lua
+Frames\MapTrail.lua
+Frames\FlightHint.lua
+Frames\Entry.lua
+Frames\FindBox.lua
+Frames\Options.lua
+Frames\MiniMarks.lua
+Frames\MapMarks.lua

@@ -1,0 +1,40 @@
+BootyBayBroker Ferryman
+Copyright (c) 2026 TheMizeGuy. All rights reserved.
+
+This repository holds the BootyBayBroker Ferryman addon for World of Warcraft as
+it is released. Its source is published so that anyone can read it.
+
+You may, free of charge:
+
+  - download the addon, install it and run it in World of Warcraft for your own
+    play;
+  - read its source.
+
+No other right is granted. Without the copyright holder's prior written
+permission you may not:
+
+  - redistribute the addon or any part of it, changed or unchanged, on any addon
+    site, repository, service or medium;
+  - publish, upload or offer a changed version, a renamed copy or a derivative
+    work;
+  - use its code, its artwork or its data files in another addon, program or
+    dataset;
+  - sell it, charge for access to it, or bundle it with anything that is sold.
+
+GitHub's Terms of Service let every user view and fork a public repository on
+GitHub. This licence grants nothing beyond that, and a fork carries these terms.
+
+Another addon may call the functions Ferryman offers to other addons (its global
+"Ferryman") while both are installed. That is use of the addon, not a copy of it.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+World of Warcraft is a trademark or registered trademark of Blizzard
+Entertainment, Inc. The game, its names, its places and its data belong to
+Blizzard Entertainment; this licence claims none of them. This project is not
+affiliated with or endorsed by Blizzard Entertainment.
