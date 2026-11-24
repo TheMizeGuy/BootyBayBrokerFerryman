@@ -14,11 +14,11 @@ addon.
 
 ## Install
 
-Download this repository (Code, then Download ZIP) and copy the three folders inside it into `Interface\AddOns`
-under your WoW Forever install: the addon, `BootyBayBrokerFerryman`, and its two walking-map folders,
-`BootyBayBrokerFerryman_EasternKingdoms` and `BootyBayBrokerFerryman_Kalimdor`, one per continent. Copy the three
-folders themselves, not the outer `BootyBayBrokerFerryman-main` folder the download unpacks into. Then type
-`/reload` in game, or start the game.
+Download the zip of the newest version from this repository's
+[Releases](https://github.com/TheMizeGuy/BootyBayBrokerFerryman/releases) page and unzip it into
+`Interface\AddOns` under your WoW Forever install. It holds three folders: the addon,
+`BootyBayBrokerFerryman`, and its two walking-map folders, `BootyBayBrokerFerryman_EasternKingdoms` and
+`BootyBayBrokerFerryman_Kalimdor`, one per continent. Then type `/reload` in game, or start the game.
 
 ## Use
 
@@ -163,7 +163,8 @@ to other players.
 ## This repository
 
 It holds the addon as it is released: the three folders above and nothing else of the project. The commit of a
-version is tagged `v<version>`. The files under `Data` and the two `Ground_*.lua` files are data, built from the
+version is tagged `v<version>`, and its release carries the zip with a minisign signature; the release notes give
+the zip's SHA-256 and the command that checks the signature. The files under `Data` and the two `Ground_*.lua` files are data, built from the
 game's client files and from measurements taken in play; comments in the code cite sections of design documents
 that are not part of this repository.
 
