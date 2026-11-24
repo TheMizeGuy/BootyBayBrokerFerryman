@@ -1,40 +1,90 @@
 BootyBayBroker Ferryman
 Copyright (c) 2026 TheMizeGuy. All rights reserved.
 
-This repository holds the BootyBayBroker Ferryman addon for World of Warcraft as
-it is released. Its source is published so that anyone can read it.
+"The Software" is the BootyBayBroker Ferryman addon for World of Warcraft: the
+folders BootyBayBrokerFerryman, BootyBayBrokerFerryman_EasternKingdoms and
+BootyBayBrokerFerryman_Kalimdor and everything in them (code, artwork and data
+files), together with the other files of this repository. Its source is
+published so that anyone can read it.
 
-You may, free of charge:
+1. What you may do
 
-  - download the addon, install it and run it in World of Warcraft for your own
-    play;
+Free of charge, and for as long as you keep to these terms, you may:
+
+  - download the Software from a place where the copyright holder publishes it
+    (this repository, its releases, or an addon site the copyright holder has
+    listed it on), directly or through an addon manager that fetches it from
+    such a place;
+  - install it and run it in World of Warcraft, for your own play, and keep
+    copies for that;
   - read its source.
 
-No other right is granted. Without the copyright holder's prior written
+2. What you may not do
+
+Every other right is reserved. Without the copyright holder's prior written
 permission you may not:
 
-  - redistribute the addon or any part of it, changed or unchanged, on any addon
-    site, repository, service or medium;
+  - redistribute the Software or any part of it, changed or unchanged, on any
+    addon site, repository, service or medium;
   - publish, upload or offer a changed version, a renamed copy or a derivative
     work;
   - use its code, its artwork or its data files in another addon, program or
     dataset;
   - sell it, charge for access to it, or bundle it with anything that is sold.
 
-GitHub's Terms of Service let every user view and fork a public repository on
-GitHub. This licence grants nothing beyond that, and a fork carries these terms.
+3. GitHub
 
-Another addon may call the functions Ferryman offers to other addons (its global
-"Ferryman") while both are installed. That is use of the addon, not a copy of it.
+GitHub's Terms of Service let GitHub host this repository and let its users
+view it and fork it on GitHub. These terms do not restrict that. A fork gives
+no right beyond section 1, with one exception: you may change your fork on
+GitHub only to offer that change to the copyright holder in a pull request to
+this repository, and the change is then a contribution under section 5. A fork
+is not permission to publish changes or to distribute copies anywhere else, and
+it must keep this file and the copyright notice as they are.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+4. Other addons
+
+Another addon may call the functions the Software offers to other addons (its
+global "Ferryman") where a player has installed both. That is use of the
+Software, not a copy of it. It does not permit putting the Software, or any
+part of it, in another addon's package or download: a player gets the Software
+only from a place named in section 1, as an addon manager does when it installs
+it as another addon's dependency.
+
+5. Contributions
+
+If you send the copyright holder a change, a translation, a correction or a
+suggestion for the Software (for example as a pull request or an issue), you
+give the copyright holder a perpetual, irrevocable, worldwide, royalty-free
+licence to use, copy, change, distribute and sublicense it, in the Software or
+in any other work, under any terms, with no obligation to you. You confirm that
+it is yours to give.
+
+6. Ending
+
+Your rights under section 1 end at once if you break these terms. You must then
+stop using the Software and delete your copies of it.
+
+7. No warranty
+
+TO THE MAXIMUM EXTENT THE LAW ALLOWS, THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
+WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+
+8. General
+
+If a court finds part of these terms unenforceable, the rest stays in force.
+These terms take away nothing the law lets you do without permission, such as
+quoting short parts of the Software to discuss it or to report a problem. To
+ask for permission, open an issue at
+https://github.com/TheMizeGuy/BootyBayBrokerFerryman/issues
 
 World of Warcraft is a trademark or registered trademark of Blizzard
 Entertainment, Inc. The game, its names, its places and its data belong to
-Blizzard Entertainment; this licence claims none of them. This project is not
-affiliated with or endorsed by Blizzard Entertainment.
+Blizzard Entertainment; these terms claim none of them, only the copyright
+holder's own work. The Software is not affiliated with or endorsed by Blizzard
+Entertainment.

@@ -4,19 +4,21 @@ Ferryman is an addon for World of Warcraft: Forever (interface 16001). It works 
 your character stands to where you want to go, over walking and swimming, the flight paths this character has
 learned, boats and zeppelins with their waits, the Deeprun Tram, lifts, portals, the Hearthstone and the class
 spells that move you. Then it leads you there with an arrow, a trail on the minimap and the world map, and a
-short list of steps. Nothing of it is on screen while no trip is set, except what a boat or zeppelin does next
-while you stand at its dock or ride it, and a side trail, a round, an arrow or places another addon asked for; the
-trip's own marks go away when you arrive.
+short list of steps. With no trip set it shows little: its button on the world map, a round search button (an
+option hides it), a flight's time in the flight map's tooltips, one line in chat at login until your first trip,
+and what a boat, zeppelin, tram or flight does next while you wait for it or ride it. Another addon can ask it to
+draw a side trail, a round, an arrow or places. A trip's own marks go away when you arrive.
 
 It is built from the game's own client data and from measurements taken in play, and it depends on no other
 addon.
 
 ## Install
 
-Copy the three folders of this repository into `Interface\AddOns` under your WoW Forever install: the addon,
-`BootyBayBrokerFerryman`, and its two walking-map folders, `BootyBayBrokerFerryman_EasternKingdoms` and
-`BootyBayBrokerFerryman_Kalimdor`, one per continent. Then type `/reload` in game, or start the game. Each
-released version is also a zip on this repository's Releases page, holding the same three folders.
+Download this repository (Code, then Download ZIP) and copy the three folders inside it into `Interface\AddOns`
+under your WoW Forever install: the addon, `BootyBayBrokerFerryman`, and its two walking-map folders,
+`BootyBayBrokerFerryman_EasternKingdoms` and `BootyBayBrokerFerryman_Kalimdor`, one per continent. Copy the three
+folders themselves, not the outer `BootyBayBrokerFerryman-main` folder the download unpacks into. Then type
+`/reload` in game, or start the game.
 
 ## Use
 
@@ -91,7 +93,7 @@ released version is also a zip on this repository's Releases page, holding the s
   that did not come from a map pin, offers it as a one-click line in the steps.
 - "Travel planner", the first row of the options, turns Ferryman's own navigation off and on again at once: off, the
   map button, the search button, Alt-click, following a map pin or RestedXP and the run back to your body are gone,
-  and `/ferry`, `/way`, the key bindings and the addon compartment open the options. What another addon draws
+  and `/ferry`, `/way` where it is Ferryman's, the key bindings and the addon compartment open the options. What another addon draws
   through Ferryman (its trips, side trail, round, arrow and places) still shows. Another addon can read and set it
   with `Ferryman.Planner()` and `Ferryman.SetPlanner(on)`.
 
@@ -112,25 +114,25 @@ released version is also a zip on this repository's Releases page, holding the s
 | `/ferry guide` | turns following RestedXP's next step on or off |
 | `/ferry pin` | plans a trip to your map pin |
 | `/ferry bench` | times the planner in the client and prints frame figures |
-| `/ferry check` | reports whether the map, minimap and flight window are still untouched by addon code |
+| `/ferry check` | reports whether map coordinates agree with the game, and whether the map, minimap and flight window are still untouched by addon code |
 | `/ferry help` | lists the commands and says who owns `/way` |
 
 Coordinates are two numbers from 0 to 100, separated by spaces or a comma, with or without a percent sign. A
-zone name is matched against the game's own map names in your language. `/way` takes the same form when no
-other addon has registered it.
+zone name is matched against the game's own map names in your language. `/way` takes the same form where neither
+the game nor another addon owns it.
 
 Key bindings (under Ferryman, none set by default): open "Where to?", plan a trip to the spot under the map
 cursor, plan a trip to my map pin, end the trip, show or hide the steps, search for a place.
 
 ## Options
 
-One page in the game's Settings panel, under AddOns: show, size and lock the arrow and the steps; draw the trip
+One page in the game's Settings panel, under AddOns: the travel planner; show, size and lock the arrow and the steps; draw the trip
 on the world map and the minimap; show the search button; show flight times on the flight map; show other addons'
 places on the maps; how close counts as arrived (15 yards); suggest the Hearthstone only when it
 saves at least 5 minutes; use travel spells; change flights on the way (off: a trip never lands at a flight master to
 take another flight there; on, only when that saves at least 1 minute, up to 10); avoid enemy towns and areas too high for your level (off, prefer
 safer ways, strongly prefer them); plan a trip when you place a map pin; show the way to RestedXP's next step
-(when RestedXP is loaded); also point the game's own map pin at each step (off); the arrival sound; reset
+(when RestedXP is loaded); show the way back to your body; also point the game's own map pin at each step (off); the arrival sound; reset
 positions; forget what Ferryman has learned.
 
 ## What it learns, and where
@@ -160,9 +162,10 @@ to other players.
 
 ## This repository
 
-It holds the addon exactly as it is released: the three folders above, byte for byte the files of the release's
-zip, one commit a release, tagged `v<version>`. Each release's zip is signed (minisign); its SHA-256 is in the
-release notes.
+It holds the addon as it is released: the three folders above and nothing else of the project. The commit of a
+version is tagged `v<version>`. The files under `Data` and the two `Ground_*.lua` files are data, built from the
+game's client files and from measurements taken in play; comments in the code cite sections of design documents
+that are not part of this repository.
 
 ## Problems
 
@@ -170,6 +173,6 @@ Report them at https://github.com/TheMizeGuy/BootyBayBrokerFerryman/issues
 
 ## Licence
 
-All rights reserved. Copyright (c) 2026 TheMizeGuy. You may install and run the addon and read its source; copying
-it elsewhere, publishing a changed version or using its code, artwork or data in another project needs written
-permission. The terms are in `LICENSE`.
+All rights reserved. Copyright (c) 2026 TheMizeGuy. You may download the addon from here, install and run it, and
+read its source; copying it elsewhere, publishing a changed version or using its code, artwork or data in another
+project needs written permission. The terms are in `LICENSE`.
